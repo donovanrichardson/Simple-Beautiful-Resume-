@@ -6,6 +6,10 @@
     transform: scale(0.375);
 } */
 
+html {
+    --color: #7B75BA;
+}
+
 /*************************************
  Overall: 
 styling for all the content on the resume
@@ -92,7 +96,8 @@ body{
 
 .resume .resume_top{
     padding: 15px 0;
-    border-bottom: 2px solid #b1eaff;
+    border-bottom: 2px solid var(--color);
+    /* border-bottom: 2px solid #b1eaff; */
 }
 
 /*************************************
@@ -101,7 +106,8 @@ body{
 
 .resume .resume_item{
     padding: 15px 0;
-    border-bottom: 2px solid #b1eaff;
+    border-bottom: 2px solid var(--color);
+    /* border-bottom: 2px solid #b1eaff; */
 }
 
 .resume .resume_left .resume_item:last-child{
@@ -117,8 +123,9 @@ body{
 *************************************/
 
 .resume .resume_left{
-    width: 275px;
-    background: #0bb5f4;
+    width: 35%;
+    /* background: #0bb5f4; */
+    background: var(--color);
     padding: 18px;
 }
 
@@ -161,7 +168,8 @@ body{
     width: 35px;
     height: 35px;
     background: #ffffff;
-    color: #0bb5f4;
+    /* color: #0bb5f4; */
+    color: var(--color);
     padding: 18px;
     border-radius: 50%;
     margin-right: 15px;
@@ -193,7 +201,8 @@ body{
     width: fit-content (20em); 
     height: 27px;
     background: #ffffff;
-    color: #0bb5f4;
+    /* color: #0bb5f4; */
+    color: var(--color);
     padding: 3px;
     border-radius: 15%;
     margin-right: 15px;
@@ -214,7 +223,7 @@ body{
 *************************************/
 
 .resume .resume_right{
-    width: 520px;
+    width: 65%;
     background: #ffffff;
     padding: 25px;
 }
@@ -231,7 +240,8 @@ body{
 *************************************/
 
 .resume .resume_right .bold{
-    color: #0bb5f4;
+    color: var(--color);
+    /* color: #0bb5f4; */
 }
 
 /*************************************
